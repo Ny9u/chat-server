@@ -1,0 +1,20 @@
+#ifndef SERVICETYPE_H
+#define SERVICETYPE_H
+
+enum BizType
+{
+    BIZ_REGIST=1,
+    BIZ_REGIST_ACK,//2
+    BIZ_LOGIN,//3
+    BIZ_LOGIN_ACK,//4
+    BIZ_ONECHAT,//5 
+    BIZ_GROUPCHAT,//6
+    BIZ_ADDFRIEND,//7
+    BIZ_DELFRIEND,//8
+    BIZ_CREGROUP,//9
+    BIZ_JOINGROUP,//10
+    BIZ_LEFTGROUP,//11
+    BIZ_LOGINOUT,//12
+};
+
+#endif
