@@ -1,6 +1,6 @@
-# chat_server简介
-基于muduo库实现的nginx负载均衡环境集群聊天服务器及客户端
-技术栈:muduo,json,mysql,redis,nginx,cmake
+# chat-server简介
+基于muduo库实现的nginx负载均衡环境集群聊天服务器
+技术栈:cpp,muduo,json,mysql,redis,nginx,cmake
 
 # 编译方式
 1.自动编译,进入build目录运行编译脚本
